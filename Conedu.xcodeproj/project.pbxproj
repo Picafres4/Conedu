@@ -16,6 +16,8 @@
 		0CB2DD992BA4FBBB0076EC75 /* ConeduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD982BA4FBBB0076EC75 /* ConeduTests.swift */; };
 		0CB2DDA32BA4FBBB0076EC75 /* ConeduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DDA22BA4FBBB0076EC75 /* ConeduUITests.swift */; };
 		0CB2DDA52BA4FBBB0076EC75 /* ConeduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DDA42BA4FBBB0076EC75 /* ConeduUITestsLaunchTests.swift */; };
+		FBFB63452BA4FF60003BBFF3 /* JairStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */; };
+		FBFB63472BA4FF79003BBFF3 /* AthainaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB63462BA4FF79003BBFF3 /* AthainaStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0CB2DD9E2BA4FBBB0076EC75 /* ConeduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConeduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB2DDA22BA4FBBB0076EC75 /* ConeduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeduUITests.swift; sourceTree = "<group>"; };
 		0CB2DDA42BA4FBBB0076EC75 /* ConeduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JairStoryboard.storyboard; sourceTree = "<group>"; };
+		FBFB63462BA4FF79003BBFF3 /* AthainaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AthainaStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0CB2DD8A2BA4FBBB0076EC75 /* Assets.xcassets */,
 				0CB2DD8C2BA4FBBB0076EC75 /* LaunchScreen.storyboard */,
 				0CB2DD8F2BA4FBBB0076EC75 /* Info.plist */,
+				FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */,
+				FBFB63462BA4FF79003BBFF3 /* AthainaStoryboard.storyboard */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -232,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB2DD8E2BA4FBBB0076EC75 /* LaunchScreen.storyboard in Resources */,
+				FBFB63472BA4FF79003BBFF3 /* AthainaStoryboard.storyboard in Resources */,
 				0CB2DD8B2BA4FBBB0076EC75 /* Assets.xcassets in Resources */,
 				0CB2DD892BA4FBB90076EC75 /* Main.storyboard in Resources */,
+				FBFB63452BA4FF60003BBFF3 /* JairStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

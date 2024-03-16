@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="DGz-of-esu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DGz-of-esu">
                                 <rect key="frame" x="76" y="147" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -266,7 +266,6 @@
     </scenes>
     <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
     <resources>
-        <image name="Image" width="666" height="374"/>
         <image name="fondo" width="1080" height="1920"/>
         <image name="logo" width="666" height="374"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>

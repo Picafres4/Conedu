@@ -19,6 +19,7 @@
 		FBFB63452BA4FF60003BBFF3 /* JairStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */; };
 		FBFB63492BA52A42003BBFF3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */; };
 		FBFB634B2BA52A81003BBFF3 /* AthainaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */; };
+		FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JairStoryboard.storyboard; sourceTree = "<group>"; };
 		FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AthainaStoryboard.storyboard; sourceTree = "<group>"; };
+		FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGradosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */,
 				FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */,
 				FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */,
+				FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */,
+				FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */,
 				0CB2DD822BA4FBB90076EC75 /* AppDelegate.swift in Sources */,
 				0CB2DD842BA4FBB90076EC75 /* SceneDelegate.swift in Sources */,
 				FBFB63492BA52A42003BBFF3 /* MenuViewController.swift in Sources */,

@@ -152,7 +152,7 @@
                                 <rect key="frame" x="-49" y="-575" width="1080" height="1920"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="t4x-C0-GEJ">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="t4x-C0-GEJ">
                                 <rect key="frame" x="36" y="141" width="321" height="593.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCm-DX-i3n">
@@ -269,12 +269,12 @@
         <!--Menu Grado View Controller-->
         <scene sceneID="97b-DL-GL3">
             <objects>
-                <viewController storyboardIdentifier="MenuMateriasID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ndQ-E3-0xU" customClass="MenuGradoViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuMateriasID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ndQ-E3-0xU" customClass="MenuGradoViewController" customModule="Conedu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GMk-q7-RgD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="OOq-TT-uR9" customClass="MenuGradiM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="OOq-TT-uR9">
                                 <rect key="frame" x="-49" y="-575" width="1080" height="1920"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -355,6 +355,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Educación Física">
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="TEST:" destination="ndQ-E3-0xU" eventType="touchUpInside" id="BLJ-Sp-46d"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akV-C5-fQC" userLabel="buttonPrimaria4">
                                         <rect key="frame" x="0.0" y="512" width="321" height="50"/>
@@ -378,15 +381,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sy9-59-5qf">
                                 <rect key="frame" x="28" y="42" width="175" height="117"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pL-xM-k5j">
-                                <rect key="frame" x="30" y="751" width="91" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pL-xM-k5j">
+                                <rect key="frame" x="30" y="751" width="91" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system" title="Atrás">
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.backward.fill" catalog="system" title="Atrás">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="atrasBotonGrado:" destination="ndQ-E3-0xU" eventType="touchUpInside" id="19M-pV-UGr"/>
+                                    <action selector="atrasBoton:" destination="ndQ-E3-0xU" eventType="touchUpInside" id="dGt-h9-9bz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -395,10 +397,12 @@
                         <constraints>
                             <constraint firstItem="TsS-p3-bZp" firstAttribute="bottom" secondItem="sy9-59-5qf" secondAttribute="bottom" constant="659" id="CbP-FM-JoN"/>
                             <constraint firstItem="3ZB-Qi-Bdz" firstAttribute="top" secondItem="TsS-p3-bZp" secondAttribute="top" constant="82" id="FLb-dG-nZX"/>
+                            <constraint firstItem="9pL-xM-k5j" firstAttribute="leading" secondItem="TsS-p3-bZp" secondAttribute="leading" constant="30" id="Gjd-eM-cds"/>
                             <constraint firstItem="sy9-59-5qf" firstAttribute="top" secondItem="GMk-q7-RgD" secondAttribute="topMargin" constant="-17" id="Isa-cc-kE2"/>
                             <constraint firstItem="3ZB-Qi-Bdz" firstAttribute="centerX" secondItem="GMk-q7-RgD" secondAttribute="centerX" id="s8I-X9-ObO"/>
                             <constraint firstItem="3ZB-Qi-Bdz" firstAttribute="leading" secondItem="TsS-p3-bZp" secondAttribute="leading" constant="36" id="t7x-hE-4dd"/>
                             <constraint firstItem="TsS-p3-bZp" firstAttribute="trailing" secondItem="sy9-59-5qf" secondAttribute="trailing" constant="190" id="tTZ-yi-CUZ"/>
+                            <constraint firstItem="9pL-xM-k5j" firstAttribute="top" secondItem="3ZB-Qi-Bdz" secondAttribute="bottom" constant="48" id="wW2-48-rQ5"/>
                             <constraint firstItem="sy9-59-5qf" firstAttribute="leading" secondItem="TsS-p3-bZp" secondAttribute="leading" constant="28" id="yEy-7f-Svb"/>
                         </constraints>
                     </view>
@@ -410,7 +414,7 @@
     </scenes>
     <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
     <resources>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="104"/>
+        <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="104"/>
         <image name="fondo" width="1080" height="1920"/>
         <image name="logo" width="666" height="374"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>

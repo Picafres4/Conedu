@@ -22,6 +22,7 @@
 		FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */; };
 		FBFB637B2BA57B75003BBFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFB637A2BA57B74003BBFF3 /* Assets.xcassets */; };
 		FBFB637D2BA57CF2003BBFF3 /* temaCincoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */; };
+		FBFB63812BA581DA003BBFF3 /* GuiaPersonalizadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB63802BA581DA003BBFF3 /* GuiaPersonalizadaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemasViewController.swift; sourceTree = "<group>"; };
 		FBFB637A2BA57B74003BBFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temaCincoViewController.swift; sourceTree = "<group>"; };
+		FBFB63802BA581DA003BBFF3 /* GuiaPersonalizadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiaPersonalizadaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */,
 				FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */,
 				FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */,
+				FBFB63802BA581DA003BBFF3 /* GuiaPersonalizadaViewController.swift */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				FBFB637D2BA57CF2003BBFF3 /* temaCincoViewController.swift in Sources */,
 				FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */,
+				FBFB63812BA581DA003BBFF3 /* GuiaPersonalizadaViewController.swift in Sources */,
 				0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */,
 				FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */,
 				0CB2DD822BA4FBB90076EC75 /* AppDelegate.swift in Sources */,

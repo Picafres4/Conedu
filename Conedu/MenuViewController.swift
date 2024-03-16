@@ -11,11 +11,43 @@ import Foundation
 import UIKit
 
 class MenuViewController: UIViewController {
-
+    
+    @IBAction func gradoUnoBoton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MenuMateriasID")
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
+    
+    
+    
+class MenuGradoViewController: UIViewController {
+        
+    @IBAction func atrasBotonGrado(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MenuID")
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    override func viewDidLoad() {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view.
+        }
+        
+    }
+    
+    
+
+
+
+
+
+
+

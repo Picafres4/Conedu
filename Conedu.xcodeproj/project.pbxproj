@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C50F9832BA514DD0000EE7D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C50F9822BA514DD0000EE7D /* MenuViewController.swift */; };
 		0CB2DD822BA4FBB90076EC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD812BA4FBB90076EC75 /* AppDelegate.swift */; };
 		0CB2DD842BA4FBB90076EC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD832BA4FBB90076EC75 /* SceneDelegate.swift */; };
 		0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD852BA4FBB90076EC75 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C50F9822BA514DD0000EE7D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0CB2DD7E2BA4FBB90076EC75 /* Conedu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conedu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB2DD812BA4FBB90076EC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CB2DD832BA4FBB90076EC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				0CB2DD8F2BA4FBBB0076EC75 /* Info.plist */,
 				FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */,
 				FBFB63462BA4FF79003BBFF3 /* AthainaStoryboard.storyboard */,
+				0C50F9822BA514DD0000EE7D /* MenuViewController.swift */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */,
 				0CB2DD822BA4FBB90076EC75 /* AppDelegate.swift in Sources */,
 				0CB2DD842BA4FBB90076EC75 /* SceneDelegate.swift in Sources */,
+				0C50F9832BA514DD0000EE7D /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

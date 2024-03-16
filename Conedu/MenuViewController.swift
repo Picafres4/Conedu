@@ -12,6 +12,7 @@ import UIKit
 
 class MenuViewController: UIViewController {
     
+    //Pasar a proxima pantalla al hacer click
     @IBAction func gradoUnoBoton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "MenuMateriasID")

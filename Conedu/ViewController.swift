@@ -13,13 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var usuarioLoginField: UITextField!
     @IBOutlet weak var passwordLoginField: UITextField!
     
-   
-    
-    
-    
-    
-    
-    
     
     @IBAction func login(_ sender: Any) {
         if (usuarioLoginField.text! == "Conedu" && passwordLoginField.text! == "pwd")
@@ -32,7 +25,7 @@ class ViewController: UIViewController {
             // else, indicar que no se pudo realizar el login por credenciales incorrectas
             
         } else {
-            // Alert dialog for failed login
+            // Alert dialog para login fallido
             let alert = UIAlertController(title: "Login fallido", message: "Credenciales incorrectas.", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alert.addAction(okAction)

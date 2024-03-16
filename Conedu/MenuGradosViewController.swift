@@ -15,6 +15,7 @@ class MenuGradoViewController: UIViewController {
             // Do any additional setup after loading the view.
         }
     
+    //Pasar a proxima pantalla al hacer click en boton matematicas
     @IBAction func matematicasBoton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "MenuTemasID")
@@ -23,6 +24,7 @@ class MenuGradoViewController: UIViewController {
 
     }
     
+    //Pasar a proxima pantalla al hacer click en flecha de regresar
     @IBAction func atrasBoton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "MenuID")

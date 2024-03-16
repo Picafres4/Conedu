@@ -11,7 +11,6 @@
 		0CB2DD842BA4FBB90076EC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD832BA4FBB90076EC75 /* SceneDelegate.swift */; };
 		0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD852BA4FBB90076EC75 /* ViewController.swift */; };
 		0CB2DD892BA4FBB90076EC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2DD872BA4FBB90076EC75 /* Main.storyboard */; };
-		0CB2DD8B2BA4FBBB0076EC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2DD8A2BA4FBBB0076EC75 /* Assets.xcassets */; };
 		0CB2DD8E2BA4FBBB0076EC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2DD8C2BA4FBBB0076EC75 /* LaunchScreen.storyboard */; };
 		0CB2DD992BA4FBBB0076EC75 /* ConeduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DD982BA4FBBB0076EC75 /* ConeduTests.swift */; };
 		0CB2DDA32BA4FBBB0076EC75 /* ConeduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2DDA22BA4FBBB0076EC75 /* ConeduUITests.swift */; };
@@ -21,6 +20,8 @@
 		FBFB634B2BA52A81003BBFF3 /* AthainaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */; };
 		FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */; };
 		FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */; };
+		FBFB637B2BA57B75003BBFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFB637A2BA57B74003BBFF3 /* Assets.xcassets */; };
+		FBFB637D2BA57CF2003BBFF3 /* temaCincoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		0CB2DD832BA4FBB90076EC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0CB2DD852BA4FBB90076EC75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CB2DD882BA4FBB90076EC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0CB2DD8A2BA4FBBB0076EC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB2DD8D2BA4FBBB0076EC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CB2DD8F2BA4FBBB0076EC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB2DD942BA4FBBB0076EC75 /* ConeduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConeduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +59,8 @@
 		FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AthainaStoryboard.storyboard; sourceTree = "<group>"; };
 		FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGradosViewController.swift; sourceTree = "<group>"; };
 		FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemasViewController.swift; sourceTree = "<group>"; };
+		FBFB637A2BA57B74003BBFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temaCincoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +111,11 @@
 		0CB2DD802BA4FBB90076EC75 /* Conedu */ = {
 			isa = PBXGroup;
 			children = (
+				FBFB637A2BA57B74003BBFF3 /* Assets.xcassets */,
 				0CB2DD812BA4FBB90076EC75 /* AppDelegate.swift */,
 				0CB2DD832BA4FBB90076EC75 /* SceneDelegate.swift */,
 				0CB2DD852BA4FBB90076EC75 /* ViewController.swift */,
 				0CB2DD872BA4FBB90076EC75 /* Main.storyboard */,
-				0CB2DD8A2BA4FBBB0076EC75 /* Assets.xcassets */,
 				0CB2DD8C2BA4FBBB0076EC75 /* LaunchScreen.storyboard */,
 				0CB2DD8F2BA4FBBB0076EC75 /* Info.plist */,
 				FBFB63442BA4FF60003BBFF3 /* JairStoryboard.storyboard */,
@@ -121,6 +123,7 @@
 				FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */,
 				FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */,
 				FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */,
+				FBFB637C2BA57CF2003BBFF3 /* temaCincoViewController.swift */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -248,9 +251,9 @@
 			files = (
 				0CB2DD8E2BA4FBBB0076EC75 /* LaunchScreen.storyboard in Resources */,
 				FBFB634B2BA52A81003BBFF3 /* AthainaStoryboard.storyboard in Resources */,
-				0CB2DD8B2BA4FBBB0076EC75 /* Assets.xcassets in Resources */,
 				0CB2DD892BA4FBB90076EC75 /* Main.storyboard in Resources */,
 				FBFB63452BA4FF60003BBFF3 /* JairStoryboard.storyboard in Resources */,
+				FBFB637B2BA57B75003BBFF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFB637D2BA57CF2003BBFF3 /* temaCincoViewController.swift in Sources */,
 				FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */,
 				0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */,
 				FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */,

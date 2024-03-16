@@ -15,6 +15,13 @@ class MenuGradoViewController: UIViewController {
             // Do any additional setup after loading the view.
         }
     
+    @IBAction func matematicasBoton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "MenuTemasID")
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true, completion: nil)
+
+    }
     
     @IBAction func atrasBoton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -22,6 +29,8 @@ class MenuGradoViewController: UIViewController {
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
     }
+    
+    
     
     
     }

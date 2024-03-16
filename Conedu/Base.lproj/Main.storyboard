@@ -313,6 +313,9 @@
                                             </attributedString>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="matematicasBoton:" destination="ndQ-E3-0xU" eventType="touchUpInside" id="2P1-S5-ENI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWf-xh-Ai9" userLabel="buttonPrimaria2">
                                         <rect key="frame" x="0.0" y="208" width="321" height="40"/>
@@ -323,7 +326,6 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Exploración de la Naturaleza y Sociedad">
                                             <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgC-WA-Sqf" userLabel="buttonPrimaria5">
@@ -416,9 +418,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-oC-isT" customClass="MenuGradoImageView">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-oC-isT" customClass="MenuGradoImageView">
                                 <rect key="frame" x="-49" y="-575" width="1080" height="1920"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-TJ-wJ2">
                                 <rect key="frame" x="36" y="141" width="321" height="400"/>
@@ -522,6 +523,9 @@
                                             </attributedString>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="temaCincoBoton:" destination="h3h-ST-g5E" eventType="touchUpInside" id="Ve6-TY-j0f"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -531,9 +535,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LE6-p3-ZiU">
                                 <rect key="frame" x="28" y="42" width="175" height="117"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suu-8U-3eN">
-                                <rect key="frame" x="30" y="751" width="91" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suu-8U-3eN">
+                                <rect key="frame" x="30" y="751.66666666666663" width="91" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system" title="Atrás">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
@@ -547,24 +550,107 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nBM-TJ-wJ2" firstAttribute="leading" secondItem="Jpg-3N-fHj" secondAttribute="leading" constant="36" id="Da9-Eq-u4R"/>
+                            <constraint firstItem="Suu-8U-3eN" firstAttribute="leading" secondItem="Jpg-3N-fHj" secondAttribute="leading" constant="30" id="EAw-v5-mmB"/>
                             <constraint firstItem="LE6-p3-ZiU" firstAttribute="leading" secondItem="Jpg-3N-fHj" secondAttribute="leading" constant="28" id="Gdc-ty-4lF"/>
                             <constraint firstItem="Jpg-3N-fHj" firstAttribute="bottom" secondItem="LE6-p3-ZiU" secondAttribute="bottom" constant="659" id="Se6-wp-P0B"/>
                             <constraint firstItem="nBM-TJ-wJ2" firstAttribute="centerX" secondItem="PsP-R5-0z2" secondAttribute="centerX" id="VCO-lw-vmZ"/>
+                            <constraint firstItem="0RX-oC-isT" firstAttribute="leading" secondItem="PsP-R5-0z2" secondAttribute="leadingMargin" constant="-65" id="Vpa-H7-kTx"/>
                             <constraint firstItem="Jpg-3N-fHj" firstAttribute="trailing" secondItem="LE6-p3-ZiU" secondAttribute="trailing" constant="190" id="hzT-t2-Ef8"/>
+                            <constraint firstItem="0RX-oC-isT" firstAttribute="top" secondItem="PsP-R5-0z2" secondAttribute="top" constant="-575" id="kD0-dv-Ldx"/>
                             <constraint firstItem="LE6-p3-ZiU" firstAttribute="top" secondItem="PsP-R5-0z2" secondAttribute="topMargin" constant="-17" id="o0K-JW-0cL"/>
+                            <constraint firstItem="Jpg-3N-fHj" firstAttribute="bottom" secondItem="Suu-8U-3eN" secondAttribute="bottom" constant="32" id="o73-BV-ad4"/>
                             <constraint firstItem="nBM-TJ-wJ2" firstAttribute="top" secondItem="Jpg-3N-fHj" secondAttribute="top" constant="82" id="qaV-pG-xUH"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="lUl-eS-mOY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxt-eI-0FL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3628" y="4"/>
         </scene>
+        <!--Menu Tema Cinco View Controller-->
+        <scene sceneID="yCl-0K-9uX">
+            <objects>
+                <viewController storyboardIdentifier="temaCincoID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lfe-uK-PvJ" customClass="MenuTemaCincoViewController" customModule="Conedu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z2p-MK-ODG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="S9b-0Z-Nuf">
+                                <rect key="frame" x="-338" y="-749" width="1080" height="1920"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="conejo" translatesAutoresizingMaskIntoConstraints="NO" id="ovs-WS-Oz6">
+                                <rect key="frame" x="16" y="72" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="2lU-fC-Swv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="MatemaÌticas-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="F8G-A2-9rd">
+                                <rect key="frame" x="35" y="30" width="328" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="169" id="WQk-WC-y4N"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Tema5Resized" translatesAutoresizingMaskIntoConstraints="NO" id="ToT-pt-nCq">
+                                <rect key="frame" x="35" y="189" width="328" height="531.66666666666663"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="arrowshape.turn.up.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="do6-jS-H1s">
+                                <rect key="frame" x="324" y="739" width="32" height="38.666666666666629"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="qIg-pg-Mz3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwO-dc-oA3">
+                                <rect key="frame" x="16" y="740.66666666666663" width="91" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="5C4-3O-DYC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system" title="Atrás">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="atrasMateriasBoton:" destination="h3h-ST-g5E" eventType="touchUpInside" id="UcA-Wk-hE7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YQS-vd-PLQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F8G-A2-9rd" firstAttribute="leading" secondItem="ToT-pt-nCq" secondAttribute="leading" id="4gx-48-TLV"/>
+                            <constraint firstItem="F8G-A2-9rd" firstAttribute="trailing" secondItem="ToT-pt-nCq" secondAttribute="trailing" id="6LH-nu-MjT"/>
+                            <constraint firstItem="ovs-WS-Oz6" firstAttribute="leading" secondItem="Z2p-MK-ODG" secondAttribute="leadingMargin" id="7Ne-wx-QeD"/>
+                            <constraint firstItem="S9b-0Z-Nuf" firstAttribute="top" secondItem="Z2p-MK-ODG" secondAttribute="top" constant="-749" id="Dbr-XT-Daj"/>
+                            <constraint firstItem="F8G-A2-9rd" firstAttribute="top" secondItem="Z2p-MK-ODG" secondAttribute="topMargin" constant="-29" id="Dnq-7v-Go5"/>
+                            <constraint firstItem="EwO-dc-oA3" firstAttribute="centerY" secondItem="do6-jS-H1s" secondAttribute="centerY" id="Hzy-wQ-AC0"/>
+                            <constraint firstItem="YQS-vd-PLQ" firstAttribute="trailing" secondItem="F8G-A2-9rd" secondAttribute="trailing" constant="30" id="JYX-Mb-w1A"/>
+                            <constraint firstItem="F8G-A2-9rd" firstAttribute="leading" secondItem="YQS-vd-PLQ" secondAttribute="leading" constant="35" id="L3c-Qd-8fG"/>
+                            <constraint firstItem="EwO-dc-oA3" firstAttribute="top" secondItem="ToT-pt-nCq" secondAttribute="bottom" constant="20" id="MHX-BX-8tv"/>
+                            <constraint firstItem="YQS-vd-PLQ" firstAttribute="trailing" secondItem="ovs-WS-Oz6" secondAttribute="trailing" constant="305" id="NZs-Op-gRa"/>
+                            <constraint firstItem="ovs-WS-Oz6" firstAttribute="leading" secondItem="EwO-dc-oA3" secondAttribute="leading" id="UcH-4e-pe6"/>
+                            <constraint firstItem="ToT-pt-nCq" firstAttribute="top" secondItem="ovs-WS-Oz6" secondAttribute="bottom" constant="45" id="btg-fL-iVj"/>
+                            <constraint firstItem="S9b-0Z-Nuf" firstAttribute="leading" secondItem="Z2p-MK-ODG" secondAttribute="leading" constant="-338" id="e8i-1H-JBc"/>
+                            <constraint firstItem="do6-jS-H1s" firstAttribute="top" secondItem="ToT-pt-nCq" secondAttribute="bottom" constant="16.666666666666629" id="fgD-Jc-Qj3"/>
+                            <constraint firstItem="YQS-vd-PLQ" firstAttribute="trailing" secondItem="do6-jS-H1s" secondAttribute="trailing" constant="37" id="gyu-uP-qZl"/>
+                            <constraint firstItem="YQS-vd-PLQ" firstAttribute="bottom" secondItem="do6-jS-H1s" secondAttribute="bottom" constant="39" id="kS8-Oe-vKo"/>
+                            <constraint firstItem="ovs-WS-Oz6" firstAttribute="top" secondItem="YQS-vd-PLQ" secondAttribute="top" constant="13" id="zch-nc-kfM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Guo-Ec-Wqt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4464.8854961832058" y="3.5211267605633805"/>
+        </scene>
     </scenes>
     <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
     <resources>
+        <image name="MatemaÌticas-removebg-preview" width="500" height="500"/>
+        <image name="Tema5Resized" width="334" height="585"/>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="104"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="104"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="104"/>
+        <image name="conejo" width="500" height="500"/>
         <image name="fondo" width="1080" height="1920"/>
         <image name="logo" width="666" height="374"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>

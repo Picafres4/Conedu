@@ -20,6 +20,7 @@
 		FBFB63492BA52A42003BBFF3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */; };
 		FBFB634B2BA52A81003BBFF3 /* AthainaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */; };
 		FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */; };
+		FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AthainaStoryboard.storyboard; sourceTree = "<group>"; };
 		FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGradosViewController.swift; sourceTree = "<group>"; };
+		FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTemasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				FBFB634A2BA52A81003BBFF3 /* AthainaStoryboard.storyboard */,
 				FBFB63482BA52A42003BBFF3 /* MenuViewController.swift */,
 				FBFB634C2BA56CF6003BBFF3 /* MenuGradosViewController.swift */,
+				FBFB634E2BA573F9003BBFF3 /* MenuTemasViewController.swift */,
 			);
 			path = Conedu;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFB634F2BA573F9003BBFF3 /* MenuTemasViewController.swift in Sources */,
 				0CB2DD862BA4FBB90076EC75 /* ViewController.swift in Sources */,
 				FBFB634D2BA56CF6003BBFF3 /* MenuGradosViewController.swift in Sources */,
 				0CB2DD822BA4FBB90076EC75 /* AppDelegate.swift in Sources */,

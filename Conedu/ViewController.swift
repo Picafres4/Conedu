@@ -18,8 +18,13 @@ class ViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         if (usuarioLoginField.text! == "Conedu" && passwordLoginField.text! == "pwd")
         {
-            
+            // Login, navegacion a proxima view.
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "MenuID")
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true, completion: nil)
             // else, indicar que no se pudo realizar el login por credenciales incorrectas
+            
         } else {
             // Alert dialog for failed login
             let alert = UIAlertController(title: "Login fallido", message: "Credenciales incorrectas.", preferredStyle: .alert)

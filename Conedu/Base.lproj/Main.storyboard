@@ -30,27 +30,6 @@
             <point key="canvasLocation" x="102" y="4"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="X8D-XZ-ih9">
-            <objects>
-                <viewController id="ZVF-Yu-H9Z" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UXl-6E-nVB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l71-C0-yUS">
-                                <rect key="frame" x="58" y="92" width="276" height="422"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="99k-BJ-c5X"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hbh-7p-dOg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1922.9007633587785" y="3.5211267605633805"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="6l3-3m-X64">
             <objects>
                 <viewController id="Wxb-rd-xFT" customClass="ViewController" customModule="Conedu" customModuleProvider="target" sceneMemberID="viewController">
@@ -63,7 +42,7 @@
                                 <color key="backgroundColor" red="0.60784313729999995" green="0.71372549019999998" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.60784313725490191" green="0.71372549019607845" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3Ku-Kf-OMU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Ku-Kf-OMU">
                                 <rect key="frame" x="67" y="22" width="259" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="119" id="gth-Xl-uNA"/>
@@ -75,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LSj-5z-MSd">
-                                <rect key="frame" x="121" y="240" width="151" height="119"/>
+                                <rect key="frame" x="121" y="239.33333333333331" width="151" height="119.33333333333337"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="2zy-zc-EKU">
@@ -161,13 +140,142 @@
             </objects>
             <point key="canvasLocation" x="1087.7862595419847" y="3.5211267605633805"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="gWl-xp-QDA">
+            <objects>
+                <viewController storyboardIdentifier="MenuID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4mP-nX-Qo8" customClass="MenuViewController" customModule="Conedu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1KK-r1-Zkg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="EIz-7V-Uwn">
+                                <rect key="frame" x="-49" y="-575" width="1080" height="1920"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="t4x-C0-GEJ">
+                                <rect key="frame" x="36" y="141" width="321" height="593.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCm-DX-i3n">
+                                        <rect key="frame" x="0.0" y="0.0" width="321" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="C0B-JV-YKc"/>
+                                            <constraint firstAttribute="height" constant="20" id="h3F-qP-v91"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHO-Zd-Ib8" userLabel="buttonPrimaria1">
+                                        <rect key="frame" x="0.0" y="56" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wYv-Px-Wy1"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado 1" cornerStyle="fixed">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOa-w2-jnq" userLabel="buttonPrimaria3">
+                                        <rect key="frame" x="0.0" y="132" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="h9Y-Au-vs1"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado 3">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZX-A7-zdn" userLabel="buttonPrimaria2">
+                                        <rect key="frame" x="0.0" y="208" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ead-ls-QdX"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado  2">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10G-xJ-FeE" userLabel="buttonPrimaria5">
+                                        <rect key="frame" x="0.0" y="284" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="81g-B6-Bi7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado 5">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oef-T0-udZ" userLabel="buttonPrimaria6">
+                                        <rect key="frame" x="0.0" y="360" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Axe-XB-RQV"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado 6">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brc-x8-GWr" userLabel="buttonPrimaria4">
+                                        <rect key="frame" x="0.0" y="436" width="321" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="kVa-uQ-cR6"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Primaria - grado 4">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVp-aP-JRm">
+                                        <rect key="frame" x="0.0" y="512" width="321" height="81.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Crear una guía personalizada">
+                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <color key="baseBackgroundColor" red="0.28627450980000002" green="0.43921568630000002" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="10G-xJ-FeE" firstAttribute="height" secondItem="eHO-Zd-Ib8" secondAttribute="height" id="2Ed-C6-u1k"/>
+                                    <constraint firstItem="VZX-A7-zdn" firstAttribute="height" secondItem="eHO-Zd-Ib8" secondAttribute="height" id="WgO-kt-7iD"/>
+                                    <constraint firstItem="oef-T0-udZ" firstAttribute="height" secondItem="eHO-Zd-Ib8" secondAttribute="height" id="tDH-nL-JdA"/>
+                                    <constraint firstItem="MOa-w2-jnq" firstAttribute="height" secondItem="eHO-Zd-Ib8" secondAttribute="height" id="uzY-Ih-4sP"/>
+                                    <constraint firstItem="Brc-x8-GWr" firstAttribute="height" secondItem="eHO-Zd-Ib8" secondAttribute="height" id="zE3-ox-OvR"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-h5-m5S">
+                                <rect key="frame" x="28" y="42" width="175" height="117"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PwS-Li-qL0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="t4x-C0-GEJ" firstAttribute="leading" secondItem="PwS-Li-qL0" secondAttribute="leading" constant="36" id="Eo4-uA-eQT"/>
+                            <constraint firstItem="PwS-Li-qL0" firstAttribute="bottom" secondItem="Qeb-h5-m5S" secondAttribute="bottom" constant="659" id="WEn-EJ-lEN"/>
+                            <constraint firstItem="PwS-Li-qL0" firstAttribute="trailing" secondItem="Qeb-h5-m5S" secondAttribute="trailing" constant="190" id="aoX-Zh-fJn"/>
+                            <constraint firstItem="t4x-C0-GEJ" firstAttribute="centerX" secondItem="1KK-r1-Zkg" secondAttribute="centerX" id="kpc-K4-5Mk"/>
+                            <constraint firstItem="t4x-C0-GEJ" firstAttribute="top" secondItem="PwS-Li-qL0" secondAttribute="top" constant="82" id="mFy-FB-0O5"/>
+                            <constraint firstItem="Qeb-h5-m5S" firstAttribute="leading" secondItem="PwS-Li-qL0" secondAttribute="leading" constant="28" id="mnx-Ru-1GC"/>
+                            <constraint firstItem="Qeb-h5-m5S" firstAttribute="top" secondItem="1KK-r1-Zkg" secondAttribute="topMargin" constant="-17" id="tdA-zJ-bVx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rse-yT-4uG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2004" y="4"/>
+        </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemGroupedBackgroundColor"/>
     <resources>
         <image name="Image" width="666" height="374"/>
+        <image name="fondo" width="1080" height="1920"/>
+        <image name="logo" width="666" height="374"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
